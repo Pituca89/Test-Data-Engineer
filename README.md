@@ -2,7 +2,7 @@
 
 ## Método de Ejecución
 
-Para la ejecución del scritp en un entorno local, se utilizaron las siguientes sentencias.
+Para la ejecución del script en un entorno local, se utilizaron las siguientes sentencias.
 
 **python "Test Data Engineer.py" --add_field 20210708 --path_config config_a.json**
 **python "Test Data Engineer.py" --path_config config_b.json**
