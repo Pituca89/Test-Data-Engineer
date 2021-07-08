@@ -242,12 +242,3 @@ dataset.write\
     .mode(_mode)\
     .option('compression',_compression)\
     .parquet(_path_out)
-
-'''
-Pregunta: Qué peculiaridades tiene el modo de escritura Overwrite, en data frames particionados, 
-para versiones de Spark previas a 2.3? Qué cambió a partir de dicha versión?
-
-En versiones anteriores a la 2.3, al momento de almacenar un archivo particionado, Spark eliminaba todas las particiones
-existentes y las reemplazaba por las nuevas particiones.
-En versiones posteriores, ésto se modificó y solo sobrescribe las particiones indicadas.
-'''
