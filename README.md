@@ -4,8 +4,8 @@
 
 Para la ejecución del script en un entorno local, se utilizaron las siguientes sentencias.
 
-**python "Test Data Engineer.py" --add_field 20210708 --path_config config_a.json**
-**python "Test Data Engineer.py" --path_config config_b.json**
+* **python "Test Data Engineer.py" --add_field 20210708 --path_config config_a.json**
+* **python "Test Data Engineer.py" --path_config config_b.json**
 
 ### Parámetros
 * --add_field: Valores asociados a los campos adicionales. Dichos campos deben indicarse en el archivo de configuración
